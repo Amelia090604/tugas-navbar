@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)) ,url('https://s2.bukalapak.com/uploads/content_attachment/ccc8094c40e8d76216a626c5/w-740/shutterstock_1105145216-2.jpg.webp');
+tab
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgb(255, 255, 255);
+    width: 220px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    background-color: white;
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.food-1{
+    background-image: url('https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/5/17/7d55a5b1-1ac1-42c0-8dce-112510213e69.jpg');
+}
+
+.food-2{
+    background-image: url('https://asset.kompas.com/crops/bYUOHQ2zXXZujl7s2RxjL3eb9KM=/0x0:1000x667/750x500/data/photo/2021/11/12/618db66eb2732.jpeg');
+}
+
+.food-3{
+    background-image: url('https://www.koreanbapsang.com/wp-content/uploads/2015/05/DSC_0917-2-e1566061945769.jpg');
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: rgb(121, 70, 70);
+    color: rgba(0, 0, 0, 0.938);
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    margin: 10px 15px;   
+}
+
+.card:hover{
+    background-color: rgb(22, 143, 190);
+    color: ivory;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: yellowgreen;
+    align-items: center;
+    height: 60px;
+}
+
+nav.logo{
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 25px;
+}
